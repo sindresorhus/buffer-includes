@@ -11,5 +11,4 @@ test(t => {
 	t.true(fn(x, 'f'));
 	t.false(fn(x, 'a', 1));
 	t.false(fn(x, 'x'));
-	t.end();
 });
