@@ -4,7 +4,7 @@
 
 > Ponyfill: A polyfill that doesn't overwrite the native method
 
-See: https://github.com/nodejs/node/issues/3552
+Included in Node.js 5.3.0 and above.
 
 
 ## Install
@@ -27,14 +27,14 @@ bufferIncludes(new Buffer('unicorn'), 'corn');
 
 ### bufferIncludes(buffer, needle, byteOffset)
 
-See the [`buffer.indexof()`](https://iojs.org/api/buffer.html#buffer_buf_indexof_value_byteoffset) docs for more details.
+See the [`buffer.includes()`](https://nodejs.org/dist/latest/docs/api/buffer.html#buffer_buf_includes_value_byteoffset_encoding) docs for more details.
 
 
 ## Related
 
-- [buf-indexof](https://github.com/sindresorhus/buf-indexof) - Node.js 4.0 `buffer.indexOf()` ponyfill
-- [buffer-equals](https://github.com/sindresorhus/buffer-equals) - Node.js 0.12 `buffer.equals()` ponyfill
-- [buf-compare](https://github.com/sindresorhus/buf-compare) - Node.js 0.12 `Buffer.compare()` ponyfill
+- [buf-indexof](https://github.com/sindresorhus/buf-indexof) - Node.js `buffer.indexOf()` ponyfill
+- [buffer-equals](https://github.com/sindresorhus/buffer-equals) - Node.js `buffer.equals()` ponyfill
+- [buf-compare](https://github.com/sindresorhus/buf-compare) - Node.js `Buffer.compare()` ponyfill
 
 
 ## License
