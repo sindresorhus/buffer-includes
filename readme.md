@@ -1,10 +1,6 @@
 # buffer-includes [![Build Status](https://travis-ci.org/sindresorhus/buffer-includes.svg?branch=master)](https://travis-ci.org/sindresorhus/buffer-includes)
 
-> Node.js `buffer.includes()` ponyfill
-
-> Ponyfill: A polyfill that doesn't overwrite the native method
-
-Included in Node.js 5.3.0 and above.
+> Node.js [`buffer.includes()`](https://nodejs.org/dist/latest/docs/api/buffer.html#buffer_buf_includes_value_byteoffset_encoding) [ponyfill](https://ponyfill.com)
 
 
 ## Install
