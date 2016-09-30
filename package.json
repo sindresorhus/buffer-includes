@@ -1,6 +1,6 @@
 {
   "name": "buffer-includes",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Node.js `buffer.includes()` ponyfill",
   "license": "MIT",
   "repository": "sindresorhus/buffer-includes",
