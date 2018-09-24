@@ -1,3 +1,9 @@
+# Deprecated
+
+Just use [`Buffer#includes()`](https://nodejs.org/api/buffer.html#buffer_class_method_buffer_compare_buf1_buf2). It has been available since Node.js 6.
+
+---
+
 # buffer-includes [![Build Status](https://travis-ci.org/sindresorhus/buffer-includes.svg?branch=master)](https://travis-ci.org/sindresorhus/buffer-includes)
 
 > Node.js [`buffer.includes()`](https://nodejs.org/dist/latest/docs/api/buffer.html#buffer_buf_includes_value_byteoffset_encoding) [ponyfill](https://ponyfill.com)
